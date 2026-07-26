@@ -1,7 +1,30 @@
 aid: docket
 name: Docket
-description: Docket is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Docket (docket.io, formerly DocketAI) is an AI marketing agent for B2B teams
+  that engages website visitors in real-time conversations to answer product
+  questions from verified knowledge, qualify buyer intent, and book meetings
+  directly into the CRM. It converts inbound traffic into "Agent Qualified
+  Leads" (AQLs) using real-time visitor profiling from CRM history and intent
+  signals, reasoning-based responses powered by its Sales Knowledge Lake (which
+  ingests 50+ data sources including Salesforce, HubSpot, Gong, Slack, Google
+  Drive, Notion and SharePoint), and multi-channel voice/text support across
+  40+ languages. Docket deploys via a JavaScript snippet with no engineering
+  required, and is offered as an annual SaaS subscription rather than a public
+  developer API. The company is SOC 2 Type II and ISO 27001 certified and GDPR
+  compliant, and is backed by Mayfield.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64b81d5300b4d493cead41a3/6a0c09cc831512d9b85c9109_OG-image.png
 url: https://raw.githubusercontent.com/api-evangelist/docket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agent
+- Conversational AI
+- Sales
+- Marketing
+- Lead Generation
+- B2B
+- CRM
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/docket-domain-security.yml
+- type: Website
+  url: https://www.docket.io/
+- type: Blog
+  url: https://www.docket.io/blog
+- type: Pricing
+  url: https://www.docket.io/pricing
+- type: GitHubOrganization
+  url: https://github.com/docketai
+- type: StatusPage
+  url: https://status.docket.io/
+- type: TrustCenter
+  url: https://security.docketai.com/
+- type: Compliance
+  url: https://www.docket.io/platform/security-and-trust
+- type: TermsOfService
+  url: https://www.docket.io/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.docket.io/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

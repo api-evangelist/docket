@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.docket.io/platform/security-and-trust
+url: https://security.docketai.com/
+trust_portal_note: >-
+  Docket operates a customer-facing Trust Portal ("Trust Vault") at
+  https://security.docketai.com/ where customers can access its security
+  posture, audit reports, policies and controls. The portal is a JavaScript
+  application, so certifications below are captured verbatim from the public
+  Security & Trust page rather than the gated portal.
+certifications:
+- SOC 2 Type 1
+- SOC 2 Type 2
+- ISO 27001
+- GDPR
+compliance_programs:
+- name: SOC 2 Type II
+  status: certified
+- name: ISO 27001
+  status: certified
+- name: GDPR
+  status: compliant
+evidence:
+- source: https://www.docket.io/platform/security-and-trust
+  keywords:
+  - soc 2 type 1
+  - soc 2 type 2
+  - iso 27001
+  - gdpr
+  - trust portal
+- source: https://security.docketai.com/
+  kind: trust-center
