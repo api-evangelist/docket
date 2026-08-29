@@ -13,6 +13,17 @@ description: >-
   required, and is offered as an annual SaaS subscription rather than a public
   developer API. The company is SOC 2 Type II and ISO 27001 certified and GDPR
   compliant, and is backed by Mayfield.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
